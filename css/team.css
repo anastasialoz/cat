@@ -1,0 +1,70 @@
+.team{
+    background-color: #151313;
+    padding-bottom: 72px;
+}
+.team__title{
+    width:  279px;
+    margin-top: 83px;
+}
+.team__lead{
+    width: 510px;
+    text-align: center
+}
+.slider__button{
+    background-color: transparent;
+    color:rgba(160, 123, 80, 0.47);
+    border: 0;
+    width: 19px;
+    height: 29px;
+    margin: auto;
+}
+.team__slider{
+    max-width: 1184px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team__wrapper{
+    background-color: #1F1C1D;
+    max-width: 600px;
+    min-height: 356px;
+    position: relative;
+    padding-top: 69px;
+    padding-left: 98px;
+    box-sizing: border-box;
+    
+}
+.team img{
+/*    height: 356px;*/
+    margin-right: -50px;
+    z-index: 1;
+    
+}
+.team cite{
+    font-family: Roboto;
+    font-style: normal;
+    color: #A07B50;
+    font-size: 16px;
+}
+.team__wrapper-outline{
+    border: 0.5px solid rgba(160, 123, 80, 0.43);
+    padding: 25px;
+
+}
+.team__employee-name{
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+.team__social{
+    display: flex;
+    width: 67px;
+    justify-content: space-between;
+    padding: 0;
+    margin-left: 38px;
+    margin-top: 43px;
+    
+}

@@ -1,0 +1,23 @@
+.footer{
+    background-color: #151313;
+    height: 156px;
+}
+.footer .container{
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-around;
+    height: 156px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer__link--address{
+    color: rgba(253, 242, 230, 0.83);
+}
+.footer__link--tel{
+    color: #FDF2E6;
+}
+.footer__social{
+    width: 80px;
+    justify-content: space-between;
+
+}

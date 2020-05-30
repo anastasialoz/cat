@@ -1,0 +1,53 @@
+
+.pets__title{
+    width: 180px;
+    margin-top: 222px
+}
+.pets__lead{
+    text-align: center;
+}
+.pets__choice-button{
+    background-color:transparent;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.2);
+}
+.pets__list{
+    padding: 0;
+    display: flex;
+    width: 272px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.pets__choice-button--active{
+    color:#ffffff;
+}
+.gallery__wrapper{
+    display: flex;
+    justify-content: center;;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin-top: 63px;
+}
+.gallery__layout-column{
+    width:519px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.gallery img{
+    height: 
+}
+
+.gallery__item--second {
+    padding: 0;
+    margin: 0;
+}
+.pets__btn{
+    display: block;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}

@@ -1,0 +1,105 @@
+.breed-features__title{
+    margin-top: 83px;
+    width: 398px;
+}
+.breed-features{
+    height: 1059px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.breed-features__image::before{
+    content: "";
+    position: absolute;
+    width: 519px;
+    height: 519px;
+    border-radius: 50%;
+    background-color: #151313;
+    z-index: -1;
+    top: 190px;
+    left: 30px;
+}
+.breed-features__image{
+    position: absolute;
+    z-index: -1;
+    top: 201px;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+.breed-features__image img{
+    height: 908px;
+    min-width: 623px;
+}
+.breed-features__image::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 631px;
+    height: 631px;
+    border: 0.5px solid #A07B50;
+    border-radius: 50%;
+    top:125px;
+    left: -5px
+}
+.breed-features__list{
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top:460px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1090px;
+}
+.breed-features__item{
+    text-align: right;
+    position: relative;
+}
+.breed-features__item::before{
+    content: "";
+    position: absolute;
+    top:5px;
+    
+    width: 15px;
+    height: 15px;
+    
+    border-radius: 50%;
+    background-color: #A07B50;
+    
+}
+.breed-features__item--cohabitation,
+.breed-features__item--appearance
+{
+    align-self: flex-start;
+}
+.breed-features__item--instruction,
+.breed-features__item--weight
+{
+    align-self: flex-end;
+}
+
+.breed-features__item--cohabitation::before,
+.breed-features__item--appearance::before{
+    right: -32px;
+}
+.breed-features__item--instruction::before,
+.breed-features__item--weight::before{
+    left: -20px;
+}
+.breed-features__item--cohabitation{
+        width: 297px;
+}
+.breed-features__item--appearance{
+    width: 212px;
+    left: 60px;
+    top: 50px;
+} 
+.breed-features__item--instruction{
+    width: 201px;
+    right: -40px;
+}
+.breed-features__item--weight{
+    width: 168px;
+    right: 50px;
+}
